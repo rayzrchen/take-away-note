@@ -23,9 +23,24 @@ public class TryShortCuts {
         String s2 = concatString(s1, s);
 
         String s3 = concatString("1", s2);
+        String s4 = s3.concat("aaaa");
+
+        tryService.greeting();
+        tryService.sayHi();
+
+
 
         return s3;
     }
+
+
+
+
+
+
+
+
+
 
     private String concatString(String s1, String s) {
         return s1 + s;

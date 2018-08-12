@@ -1,11 +1,7 @@
 package com.example.install_cert_at_runtime.cert;
 
-import org.springframework.stereotype.Service;
+public interface TryService {
+    String sayHi();
 
-@Service
-public class TryService {
-
-    String sayHi() {
-        return "hi";
-    }
+    String greeting();
 }
