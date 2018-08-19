@@ -1,4 +1,4 @@
-package com.example.install_cert_at_runtime.cert;
+package com.example.installcertatruntime.cert;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +17,7 @@ public class TryShortCuts {
 
     @GetMapping("")
     public String test1() {
-        String s1 = "D:\\develop\\install_cert_at_runtime\\src\\main\\java\\com\\example\\install_cert_at_runtime\\cert\\TryShortCuts.java";
+        String s1 = "D:\\develop\\installcertatruntime\\src\\main\\java\\com\\example\\installcertatruntime\\cert\\TryShortCuts.java";
         String s = "com/example/install_cert_at_runtime/cert/TryShortCuts.java:21";
 
         String s2 = concatString(s1, s);

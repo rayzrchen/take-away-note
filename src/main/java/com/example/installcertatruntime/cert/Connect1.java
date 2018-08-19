@@ -1,4 +1,4 @@
-package com.example.install_cert_at_runtime.cert;
+package com.example.installcertatruntime.cert;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

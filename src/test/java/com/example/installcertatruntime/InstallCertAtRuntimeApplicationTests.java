@@ -1,4 +1,4 @@
-package com.example.install_cert_at_runtime;
+package com.example.installcertatruntime;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

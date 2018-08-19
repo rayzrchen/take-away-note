@@ -1,4 +1,4 @@
-package com.example.install_cert_at_runtime.cert;
+package com.example.installcertatruntime.cert;
 
 public interface TryService {
     String sayHi();

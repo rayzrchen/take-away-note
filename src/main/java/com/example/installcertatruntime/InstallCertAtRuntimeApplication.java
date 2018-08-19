@@ -1,4 +1,4 @@
-package com.example.install_cert_at_runtime;
+package com.example.installcertatruntime;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

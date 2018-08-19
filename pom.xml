@@ -20,7 +20,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.reportifng.outputEncoding>UTF-8</project.reportifng.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
@@ -43,6 +43,11 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>5.1.4</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
