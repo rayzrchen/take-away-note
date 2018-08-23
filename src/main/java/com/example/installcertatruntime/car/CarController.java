@@ -1,8 +1,6 @@
 package com.example.installcertatruntime.car;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -20,6 +18,11 @@ public class CarController {
     public List<Car> all() {
         return carService.all();
 
+    }
+
+    @PostMapping("")
+    public Car create(@RequestBody Car car) {
+        return carService.create(car);
     }
 
 }
