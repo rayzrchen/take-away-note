@@ -1,5 +1,5 @@
-CREATE TABLE cars (
-    id number(10) NOT NULL PRIMARY KEY,
-    license_plate VARCHAR(255) NOT NULL,
-    color VARCHAR(255) NOT NULL
+create table car (
+  id           uuid default random_uuid() primary key,
+  licenseplate varchar(255) not null,
+  color        varchar(255) not null
 );

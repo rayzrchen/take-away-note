@@ -3,13 +3,12 @@ package com.example.installcertatruntime.car
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping(value = ["api/v1/cars"])
+@RequestMapping("api/v1/cars")
 class CarController(private val carService: CarService) {
 
     @GetMapping("")
-    fun all(): List<Car> {
+    fun all(): List<*> {
         return carService.all()
-
     }
 
     @PostMapping("")

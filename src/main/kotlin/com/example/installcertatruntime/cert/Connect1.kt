@@ -78,7 +78,7 @@ class Connect1 {
 
 
 
-                while (true){
+                while (true) {
 
                     input = br.readLine()
 
